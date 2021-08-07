@@ -32,7 +32,7 @@ function onClickButtonPriceDescount() {
     return resultP.innerText = `El precio con descuento es: $${precioConDescuento}`; 
   } else {
     return resultP.innerText = `
-    El precio con descuento y el descuento del cupo es $${precioConDescuentoCupon}
+    El precio con descuento mas el cupo es $${precioConDescuentoCupon}
     `; 
   }
 }
