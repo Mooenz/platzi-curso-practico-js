@@ -1,25 +1,49 @@
-# Platzi Curso Practico Javascript
+# **Platzi Curso Practico Javascript**
+## inicio
+![Index](assets/inicio.png)
 
-## Taller 1 : Figuras Geometricas.
-### pasos:
+## **Taller 1 : Figuras Geometricas.**
+### *pasos:*
+1. Definir las formulas : Perimetro y area segun la figura.
+2. Implementarlas en Javascrpt : Crear la logica del programa. 
+3. Crear funciones : funciones que calculen tanto perimetro como el area.
+4. Integrar JS con Html : src en nuestro html, crear estilos y manipulacion del DOM.
+#### Mobile
+![Figuras geometricas mobile](assets/figuras-geometricas.png)
 
-1. Definir las formulas.
-2. Implementarlas en Javascrpt.
-3. Crear funciones.
-4. Integrar JS con Html.
 
-## Taller 2 : Porcentajes y descuentos.
-### pasos:
+## **Taller 2 : Porcentajes y descuentos.**.
+### *pasos:*
+1. Definir las formulas : Investigar las formulas para obtener porcentajes.
+2. Implementarlas en Javascript : Crear la logica del programa.
+3. Crear funciones : Implementar funciones que calcule porcentajes y descuentos.
+4. Integrar JS con Html : crear la interacion con el usuario.
+#### Mobile
+![Porcentajes Descuentos mobile](assets/porcentajes-promedio.png)
 
-1. Definir las formulas.
-2. Implementarlas en Javascript.
-3. Crear funciones.
-4. Integrar JS con Html.
+## **Taller 3 : Promedio, moda, mediana.**
+### *pasos:*
+1. Definir las formulas : Definir formulas para promedio, moda, mediana.
+2. Implementarlas en Javascript : Crear la logica del programa.
+3. Crear funciones : Hacer funciones que calcules el promedio, moda y mediana
+4. Integrar JS con Html : crear la interacion con el usuario.
+#### Mobile
+![promedio moda mediana mobile](assets/promedio-moda-mediana.png)
 
-## Taller 3 : Promedio, moda, mediana.
-### pasos:
+## **Taller 4 : Analisi salarial.**
+### *pasos:*
+1. Definir las formulas : Definir formulas para nuestro analisis.
+2. Implementarlas en Javascript : Crear la logica del programa.
+3. Crear funciones : Hacer funciones que calcules el top 10% de salarios.
+4. Integrar JS con Html : crear la interacion con el usuario.
+#### Mobile
+![Analisis salarial mobile](assets/)
 
-1. Definir las formulas.
-2. Implementarlas en Javascript.
-3. Crear funciones.
-4. Integrar JS con Html.
+## **Taller 5 : Calcular hora extra.**
+### *pasos:*
+1. Definir las formulas : Definir formula para calcular las horas extra, cuanto se paga por cada una de ellas.
+2. Implementarlas en Javascript : Crear la logica del programa.
+3. Crear funciones : Hacer funciones que calcules cuanto se debe pagar en horas extra.
+4. Integrar JS con Html : crear la interacion con el usuario.
+#### Mobile
+![Horas extra mobile](assets/horas-extras.png)
