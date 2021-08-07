@@ -1,12 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Calculadora de horas extras - Mooenz</title>
-</head>
-<body>
-  <script src="./horas-extras.js"></script>
-</body>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de horas extras - Mooenz</title>
+    <link
+      rel="shortcut icon"
+      href="/assets/logo-mooenz.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <p class="header__logo">
+        <a
+          class="header__link text-decoration"
+          href="https://github.com/Mooenz"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Mooenz</a
+        >
+      </p>
+
+      <p>
+        <a
+          class="header__proyectos text-decoration"
+          href="https://github.com/Mooenz?tab=repositories"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Otros Proyectos</a
+        >
+      </p>
+    </header>
+
+    <section class="principal">
+      <h1 class="principal__titulo">Calculo de horas extras</h1>
+      <p class="principal__subtitulo">
+        Este es el taller final del Curso Practico de Javascript
+      </p>
+    </section>
+
+    <section class="extras">
+      <h2 class="extras__titulo">Horas extras</h2>
+      <p class="extras__subtitulo">
+        Escribe las horas extras según el campo, se calculara las horas extras
+        según el salario devengado
+      </p>
+      <form class="extras__formulario">
+        <label class="label" for="input-salario">Salario</label>
+        <input class="input" id="input-salario" type="number" value="0"/>
+
+        <label class="label" for="input-diurna">Horas Diurnas</label>
+        <input class="input" id="input-diurna" type="number" value="0"/>
+
+        <label class="label" for="input-nocturna">Horas Nocturna</label>
+        <input class="input" id="input-nocturna" type="number" value="0"/>
+
+        <label class="label" for="input-diurna-dominical"
+          >Horas Diurnas Dominical</label
+        >
+        <input class="input" id="input-diurna-dominical" type="number" value="0"/>
+
+        <label class="label" for="input-nocturna-dominical"
+          >Horas Nocturna Dominical</label
+        >
+        <input class="input" id="input-nocturna-dominical" type="number" value="0"/>
+
+        <button class="button" type="button" onclick="calcularHorasExtras()">
+          Calcular
+        </button>
+
+        <div class="contenedor">
+          <p class="contenedor__respuesta" id="respuesta"></p>
+        </div>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <i class="footer__creador">
+        Coiyright ©
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        - Todos los derechos reservados - Create By
+        <a
+          class="footer__link text-decoration"
+          href="https://github.com/Mooenz"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Mooenz</a
+        >
+      </i>
+    </footer>
+    <script src="./horas-extras.js"></script>
+  </body>
 </html>

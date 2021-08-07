@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@400;700&family=Roboto+Slab:wght@400;500&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+  background-color: #082032;
+  color: white;
+}
+
+body {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.text-decoration {
+  text-decoration: none;
+  color: white;
+}
+
+.text-decoration:hover {
+  color: #FF4C29;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+}
+
+.header__link {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.header__proyectos {
+  font-family: "Poppins", sans-serif;
+}
+
+.header__proyectos:hover {
+  text-decoration: underline;
+}
+
+.principal {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.principal__titulo {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.principal__subtitulo {
+  font-size: 0.9rem;
+  margin: 10px 0 0;
+}
+
+.extras {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+  width: 100%;
+}
+
+.extras__titulo {
+  font-family: "Roboto Slab", serif;
+  margin: 0;
+}
+
+.extras__subtitulo {
+  font-size: 0.9rem;
+  margin: 10px 0 20px;
+  text-align: center;
+}
+
+.extras__formulario {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 400px;
+  text-align: center;
+  width: 100%;
+}
+
+.label {
+  width: 100%;
+  margin: 0 0 5px;
+}
+
+.input {
+  border: none;
+  border-radius: 30px;
+  color: #2C394B;
+  font-weight: bold;
+  font-size: 1rem;
+  height: 30px;
+  margin: 0 0 15px;
+  outline: none;
+  text-align: center;
+  width: 100%;
+}
+
+.input:hover {
+  border: 2px solid #FF4C29;
+}
+
+.button {
+  background-color: #2C394B;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  font-family: "Roboto Slab", serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  height: 40px;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  background-color: #334756;
+}
+
+.contenedor {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80px;
+  background-color: #334756;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 15px 0 0;
+  width: 100%;
+}
+
+.contenedor__respuesta {
+  margin: 0;
+}
+
+.footer {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.footer__creador {
+  font-size: 0.9rem;
+  padding: 20px;
+}
+/*# sourceMappingURL=style.css.map */
