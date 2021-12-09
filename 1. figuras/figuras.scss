@@ -10,10 +10,8 @@ $circulo-dos: #1e90ff;
 $rectangulo-uno: #34e7e4;
 $rectangulo-dos: #00d8d6;
 
-$rombo-uno: #D6A2E8;
-$rombo-dos: #82589F;
-
-
+$rombo-uno: #d6a2e8;
+$rombo-dos: #82589f;
 
 .header-title {
   align-items: center;
@@ -38,6 +36,17 @@ $rombo-dos: #82589F;
 
 .articles {
   padding: 20px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+
+  @media screen and (min-width:600px) {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 0 30px;
+    max-width: 1200px;
+  }
 
   &__article {
     align-items: center;
@@ -45,7 +54,6 @@ $rombo-dos: #82589F;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-bottom: 15px;
     max-width: 350px;
     min-height: 300px;
     padding: 15px;
@@ -88,7 +96,7 @@ $rombo-dos: #82589F;
       }
 
       &__buttons {
-        display: flex;        
+        display: flex;
         width: 100%;
 
         .button {

@@ -45,7 +45,7 @@ a:hover {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  max-width: 1024px;
+  max-width: 1200px;
   min-height: 80px;
   padding: 20px;
   width: 100%;
