@@ -17,7 +17,7 @@ Curso impartido por le profesor Juan David Castro by platzi
 ![Preview inicio](./assets/inicio.png)
 ![Preview figuras geometricas](./assets/figuras-geometricas.png)
 ![Preview promedios](./assets/porcentajes-promedio.png)
-![Preview analisis salarial](./assets/analisis-salarial.png)
+<!-- ![Preview analisis salarial](./assets/analisis-salarial.png) -->
 ![Preview Horas extras](./assets/horas-extras.png)
 
 ## **Contact** 📧
